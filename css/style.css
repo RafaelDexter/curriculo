@@ -29,15 +29,34 @@ hr {
 	color: inherit;
 	border-top-width: 1px;
 }
-
-abbr:where([title]) {
-	-webkit-text-decoration: underline dotted;
-	text-decoration: underline dotted;
-}
-
 h1, h2, h3, h4, h5, h6 {
 	font-size: inherit;
 	font-weight: inherit;
+}
+
+h1 {
+	font-size: 2.25rem;
+	line-height: 2.5rem;
+	font-weight: 900;
+	letter-spacing: -.025em;
+	--tw-text-opacity: 1;
+	color: rgb(17 24 39 / var(--tw-text-opacity));
+}
+h2 {
+	margin-top: 1.5rem;
+	font-size: 1.125rem;
+	line-height: 1.75rem;
+	--tw-text-opacity: 1;
+	color: rgb(107 114 128 / var(--tw-text-opacity));
+}
+p {
+	padding-left: .625rem;
+	font-size: 1rem;
+	line-height: 1.5rem;
+	font-weight: 900;
+	letter-spacing: -.025em;
+	--tw-text-opacity: 1;
+	color: rgb(31 41 55 / var(--tw-text-opacity));
 }
 
 a {
@@ -49,28 +68,6 @@ b, strong {
 	font-weight: bolder;
 }
 
-code, kbd, samp, pre {
-	font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, Liberation Mono, Courier New, monospace;
-	font-size: 1em;
-}
-
-small { font-size: 80%;
-}
-
-sub, sup {
-	font-size: 75%;
-	line-height: 0;
-	position: relative;
-	vertical-align: baseline;
-}
-
-sub {
-	bottom: -.25em;
-}
-
-sup {
-	top: -.5em;
-}
 
 table {
 	text-indent: 0;
@@ -164,7 +161,7 @@ img, video {
 	padding-bottom: 6rem;
 	
 }
-
+/* max-w-md px-4 mx-auto sm:max-w-3xl sm:px-6 lg:px-8 lg:max-w-7xl lg:grid lg:grid-cols-2 lg:gap-24 */
 .pre-logo {
 	max-width: 28rem;
 	padding-left: 1rem;
@@ -193,6 +190,15 @@ img, video {
 	color: rgb(17 24 39 / var(--tw-text-opacity));
 	font-size: 1.5rem;
 	line-height: 2rem;
+}
+.mg-35 {
+	margin-top: 3.5rem;
+}
+.mg-15 {
+	margin-top: 1.5rem;
+}
+.mx-36 {
+	max-width: 36rem;
 }
 .photo {
 	width: 100%;
