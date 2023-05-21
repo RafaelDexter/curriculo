@@ -150,25 +150,44 @@ img, video {
 	max-width: 100%;
 	height: auto
 }
-
-
-.visible {
-	visibility: visible
+.photo {
+	width: 100%;
+	width: auto;
+	height: 100%;
+	max-width: none;
+	border-top-left-radius: 1.5rem;
+	border-bottom-left-radius: 1.5rem;
+	border-radius: 1.5rem;
 }
-
-.fixed {
-	position: fixed
+.box1 {
+	position: absolute;
+	margin-left: -.75rem;
+	top: 0px;
+	bottom: 0px;
+	width: 100vw;
+	left: 50%;
+	--tw-bg-opacity: 1;
+	background-color: rgb(249 250 251 / var(--tw-bg-opacity));
+	border-top-left-radius: 1.5rem;
+	border-bottom-left-radius: 1.5rem;	
 }
-
-.absolute {
-	position: absolute
+.svg1 {
+	position: absolute;
+	margin-right: -.75rem;
+	top: 2rem;
+	right: 50%;
+	margin: 0;
+	left: 0px;
 }
-
-.relative {
-	position: relative
+.box-avatar {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	width: 100%;
+	margin-left: auto;
+	margin-right: auto;
+	max-width: 48rem;
 }
-
-
 .avatar {
 	margin: .5rem .25rem;
 	display: block;
