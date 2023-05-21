@@ -191,14 +191,48 @@ img, video {
 	font-size: 1.5rem;
 	line-height: 2rem;
 }
+/* Margin Top 3.5rem */
 .mg-35 {
 	margin-top: 3.5rem;
 }
+/* Margin Top 1.5rem */
 .mg-15 {
 	margin-top: 1.5rem;
 }
+/* Max width 36rem */
 .mx-36 {
 	max-width: 36rem;
+}
+.depoimento{
+	display: inline-flex;
+	align-items: center;
+}
+/* Padding Left 1.5rem */
+.pdl-15 {
+	padding-left: 1.5rem;
+}
+/* Padding Top Bottom 3rem */
+.pdtb-3 {
+	padding-top: 3rem;
+	padding-bottom: 3rem;
+}
+/* Photo left*/
+.photo-l{
+	position: relative;
+	margin-top: 3rem;
+	top: 0px;
+	bottom: 0px;
+	right: 0px;
+	width: 50%;
+}
+/* Photo right */
+.photo-r{
+	position: relative;
+	margin-top: 3rem;
+	top: 0px;
+	bottom: 0px;
+	left: 0px;
+	width: 50%;
 }
 .photo {
 	width: 100%;
@@ -220,6 +254,9 @@ img, video {
 	background-color: rgb(249 250 251 / var(--tw-bg-opacity));
 	border-top-left-radius: 1.5rem;
 	border-bottom-left-radius: 1.5rem;	
+}
+.hidden {
+	display: none;
 }
 .svg1 {
 	position: absolute;
