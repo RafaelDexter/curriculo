@@ -243,29 +243,10 @@ img, video {
 	border-bottom-left-radius: 1.5rem;
 	border-radius: 1.5rem;
 }
-.box1 {
-	position: absolute;
-	margin-left: -.75rem;
-	top: 0px;
-	bottom: 0px;
-	width: 100vw;
-	left: 50%;
-	--tw-bg-opacity: 1;
-	background-color: rgb(249 250 251 / var(--tw-bg-opacity));
-	border-top-left-radius: 1.5rem;
-	border-bottom-left-radius: 1.5rem;	
-}
 .hidden {
 	display: none;
 }
-.svg1 {
-	position: absolute;
-	margin-right: -.75rem;
-	top: 2rem;
-	right: 50%;
-	margin: 0;
-	left: 0px;
-}
+
 .box-avatar {
 	display: flex;
 	flex-wrap: wrap;
