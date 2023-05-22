@@ -209,6 +209,10 @@ img, video {
 	font-size: 1.5rem;
 	line-height: 2rem;
 }
+/* Margin Top 2rem */
+.mg-2 {
+	margin-top: 2rem;
+}
 /* Margin Top 3.5rem */
 .mg-35 {
 	margin-top: 3.5rem;
