@@ -6,201 +6,66 @@
 	border-style: solid;
 	border-color: #e5e7eb;
 }
-
-:before, :after { --tw-content: ""
-}
-
-html {
-	line-height: 1.5;
-	-webkit-text-size-adjust: 100%;
-	-moz-tab-size: 4;
-	-o-tab-size: 4;
-	tab-size: 4;
-	font-family: ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica Neue, Arial, Noto Sans, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", Segoe UI Symbol, "Noto Color Emoji";
-}
-
-body {
-	margin: 0;
-	line-height: inherit;
-}
-
-hr {
-	height: 0;
-	color: inherit;
-	border-top-width: 1px;
-}
-h1, h2, h3, h4, h5, h6 {
-	font-size: inherit;
-	font-weight: inherit;
-}
-
-h1 {
-	font-size: 2.25rem;
-	line-height: 2.5rem;
-	font-weight: 900;
-	letter-spacing: -.025em;
-	--tw-text-opacity: 1;
-	color: rgb(17 24 39 / var(--tw-text-opacity));
-}
-h2 {
-	margin-top: 1.5rem;
-	font-size: 1.125rem;
-	line-height: 1.75rem;
-	--tw-text-opacity: 1;
-	color: rgb(107 114 128 / var(--tw-text-opacity));
-}
-p {
-	padding-left: .625rem;
-	font-size: 1rem;
-	line-height: 1.5rem;
-	font-weight: 900;
-	letter-spacing: -.025em;
-	--tw-text-opacity: 1;
-	color: rgb(31 41 55 / var(--tw-text-opacity));
-}
-
-a {
-	color: inherit;
-	text-decoration: inherit;
-}
-
-b, strong {
-	font-weight: bolder;
-}
-
-
-table {
-	text-indent: 0;
-	border-color: inherit;
-	border-collapse: collapse;
-}
-
-button, input, optgroup, select, textarea {
-	font-family: inherit;
-	font-size: 100%;
-	font-weight: inherit;
-	line-height: inherit;
-	color: inherit;
-	margin: 0;
-	padding: 0;
-}
-
-button, select {
-	text-transform: none;
-}
-
-button, [type=button], [type=reset], [type=submit] {
-	-webkit-appearance: button;
-	background-color: transparent;
-	background-image: none;
-}
-
-
-progress {
-	vertical-align: baseline;
-}
-
-
-summary {
-	display: list-item;
-}
-
-blockquote, dl, dd, h1, h2, h3, h4, h5, h6, hr, figure, p, pre {
-	margin: 0;
-}
-
-fieldset {
-	margin: 0;
-	padding: 0;
-}
-
-legend {
-	padding: 0;
-}
-
-ol, ul, menu {
-	list-style: none;
-	margin: 0;
-	padding: 0;
-}
-
-textarea {
-	resize: vertical;
-}
-
-
-button,
-[role=button] {
-	cursor: pointer;
-}
-
-:disabled {
-	cursor: default;
-}
-
-img, svg, video, canvas, audio, iframe, embed, object {
-	display: block;
-	vertical-align: middle;
-}
-
-img, video {
-	max-width: 100%;
-	height: auto;
-}
-
 .bg-site {
 	--tw-bg-opacity: 1;
 	background-color: rgb(255 255 255 / var(--tw-bg-opacity));
 	overflow: hidden;
 }
-
-.sec1 {
-	position: relative;
-	overflow: hidden;
-	padding-top: 2rem;
-	padding-bottom: 6rem;
-	
+html {
+	line-height: 1.5;
+	-webkit-text-size-adjust: 100%;
+	tab-size: 4;
+	font-family: ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica Neue, Arial, Noto Sans, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", Segoe UI Symbol, "Noto Color Emoji";
 }
-.sec2 {
-	position: relative;
-	overflow: hidden;
-	padding-top: 4rem;
-	--tw-bg-opacity: 1;
-	background-color: rgb(255 255 255 / var(--tw-bg-opacity));
-	--tw-space-y-reverse: 0;
-	margin-top: calc(6rem * calc(1 - var(--tw-space-y-reverse)));
-	margin-bottom: calc(6rem * var(--tw-space-y-reverse));
-
+body {
+	background-color: black;
+	margin: 2rem;
+	line-height: inherit;
 }
-.sec3 {
-	overflow: hidden;
-	--tw-bg-opacity: .8
-	background-color: rgb(37 50 56 / var(--tw-bg-opacity));
+h1 {
+	font-size: 3.75rem;
+	line-height: 4.5rem;
+	font-weight: 900;
+	letter-spacing: -.025em;
+	color: rgb(240 240 240);
 }
-.sec4 {
-	position: relative;
+h2 {
+	margin-top: 1.5rem;
+	font-size: 2.125rem;
+	line-height: 1.75rem;
+	color: rgb(210 210 210);
 }
-.pre-logo {
-	max-width: 28rem;
-	padding-left: 1rem;
-	padding-right: 1rem;
-	margin-left: auto;
-	margin-right: auto;
-	display: grid;
-	grid-template-columns: repeat(2, minmax(0, 1fr));
-	gap: 6rem;
+h3 {
+	padding-left: .625rem;
+	font-size: 1.75rem;
+	line-height: 1.5rem;
+	font-weight: 900;
+	letter-spacing: -.025em;
+	color: rgb(0 0 0);
 }
-
-.logo {
-	position: relative;
-	z-index: 1;
+p {
+	padding-left: .625rem;
+	font-size: 1.75rem;
+	line-height: 1.5rem;
+	font-weight: 900;
+	letter-spacing: -.025em;
+	color: rgb(180 180 180);
 }
-.logo-img {
-	display: flex;
+.center {
 	align-items: center;
-	--tw-space-x-reverse: 0;
-	margin-right: calc(.5rem * var(--tw-space-x-reverse));
-	margin-left: calc(.5rem * calc(1 - var(--tw-space-x-reverse)));
+}
+.container {
+	display: flex;
+	flex-direction: row;
+}
+
+.content {
+	flex: 1;
+	padding: 20px;
+}
+
+.text {
+	text-align: right;
 }
 .logo-p {
 	font-weight: 700;
@@ -209,74 +74,17 @@ img, video {
 	font-size: 1.5rem;
 	line-height: 2rem;
 }
-/* Margin Top 2rem */
-.mg-2 {
-	margin-top: 2rem;
-}
-/* Margin Top 3.5rem */
-.mg-35 {
-	margin-top: 3.5rem;
-}
-/* Margin Top 1.5rem */
-.mg-15 {
-	margin-top: 1.5rem;
-}
-/* Max width 36rem */
-.mx-36 {
-	max-width: 36rem;
-}
-.depoimento{
-	display: inline-flex;
-	align-items: center;
-}
-/* Padding Left 1.5rem */
-.pdl-15 {
-	padding-left: 1.5rem;
-}
-/* Padding Top Bottom 3rem */
-.pdtb-3 {
-	padding-top: 3rem;
-	padding-bottom: 3rem;
-}
-/* Photo left*/
-.photo-l{
-	position: relative;
-	margin-top: 3rem;
-	top: 0px;
-	bottom: 0px;
-	right: 0px;
-	width: 50%;
-}
-/* Photo right */
-.photo-r{
-	position: relative;
-	margin-top: 3rem;
-	top: 0px;
-	bottom: 0px;
-	left: 0px;
-	width: 50%;
-}
-.photo {
-	width: 100%;
-	width: auto;
+.image {
+	width: 53%;
 	height: 100%;
 	max-width: none;
 	border-top-left-radius: 1.5rem;
 	border-bottom-left-radius: 1.5rem;
 	border-radius: 1.5rem;
 }
-.hidden {
-	display: none;
-}
-
-.box-avatar {
-	display: flex;
-	flex-wrap: wrap;
-	justify-content: center;
-	width: 100%;
-	margin-left: auto;
-	margin-right: auto;
-	max-width: 48rem;
+.depoimento{
+	display: inline-flex;
+	align-items: center;
 }
 .avatar {
 	margin: .5rem .25rem;
@@ -288,6 +96,39 @@ img, video {
 	--tw-border-opacity: 1;
 	border-color: rgb(37 50 56 / var(--tw-border-opacity))
 }
+.sec {
+	position: relative;
+	overflow: hidden;
+	padding-top: 2rem;
+	background-color: rgb(255 255 255);
+	--tw-space-y-reverse: 0;
+	margin-top: calc(6rem * calc(1 - var(--tw-space-y-reverse)));
+	margin-bottom: calc(6rem * var(--tw-space-y-reverse));
+	padding-top: 3rem;
+	padding-bottom: 3rem;
+}
+.box-avatar {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	width: 100%;
+	margin-left: auto;
+	margin-right: auto;
+	max-width: 48rem;
+}
+/* Margin Top 2rem */
+.mgt-20 {
+	margin-top: 2rem;
+}
+/* Margin Top 1.5rem */
+.mgt-15 {
+	margin-top: 1.5rem;
+}
+/* Margin Top 3.5rem */
+.mgt-35 {
+	margin-top: 3.5rem;
+}
+
 
 @media (min-width: 640px) {
 	.avatar {
@@ -297,5 +138,3 @@ img, video {
 		width: 3.5rem
 	}
 }
-
-
