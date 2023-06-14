@@ -13,7 +13,7 @@
             <img src="<?= $dados['foto']; ?>" alt="Foto" class="foto">
             <div class="topico-lateral">
                 <img src="img/icone-endereco-1.png" alt="Endereço">
-                <span><?= $dados['endereco']; ?></span>
+                <span><?= $dados['rua']; ?>,<?= $dados['cidade']; ?>,<?= $dados['uf']; ?></span>
             </div>
             <div class="topico-lateral">
                 <img src="img/icone-telefone-1.png" alt="Telefone">

@@ -23,13 +23,9 @@ $dados = array(
     'foto' => $foto,
     'nome' => $_POST['nome'],
     'cargo' => $_POST['cargo'],
-    'endereco' => isset($_POST['endereco']) ?
-                    array(
-                        'rua' => $_POST['rua'],
-                        'bairro' => $_POST['bairro'],
-                        'cidede' => $_POST['cidade'],
-                        'uf' => $_POST['uf']
-                    ) : null, //Se o usuário não adicionou nenhuma formação, esse elemento ficará nulo
+    'rua' => $_POST['rua'],
+    'cidade' => $_POST['cidade'],
+    'uf' => $_POST['uf'],
     'telefone' => $_POST['telefone'],
     'email' => $_POST['email'],
     'resumo' => $_POST['resumo'],

@@ -14,7 +14,7 @@
             <h2><?= $dados['cargo']; ?></h2>
             <p><span>Telefone(s): </span><?= $dados['telefone']; ?></p>
             <p><span>E-mail: </span><?= $dados['email']; ?></p>
-            <p><span>Endereço: </span><?= $dados['endereco']; ?></p>
+            <p><span>Endereço: </span><?= $dados['rua']; ?>,<?= $dados['cidade']; ?>,<?= $dados['uf']; ?></p>
         </section>
         <section class="conteudo">
             <h3>Resumo</h3>

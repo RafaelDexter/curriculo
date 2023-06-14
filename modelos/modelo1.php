@@ -57,7 +57,9 @@
                 <li>
                     <div>
                         <h4>Endereço:</h4>
-                        <p><?= $dados['endereco']; ?></p>
+                        <p><?= $dados['rua']; ?>,
+                           <?= $dados['cidade']; ?>,
+                           <?= $dados['uf']; ?></p>
                     </div>
                 </li>
                 <li>
