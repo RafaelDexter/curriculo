@@ -51,6 +51,34 @@ p {
 	letter-spacing: -.025em;
 	color: rgb(180 180 180);
 }
+.btn{
+    display:inline-block;
+    font-weight:400;
+    text-align:center;
+    white-space:nowrap;
+    vertical-align:middle;
+    -webkit-user-select:none;
+    -moz-user-select:none;
+    -ms-user-select:none;
+    user-select:none;
+    border:1px solid transparent;
+    padding:.5rem .75rem;
+    font-size:1rem;
+    line-height:1.25;
+    border-radius:.25rem;
+    transition:all .15s ease-in-out
+  background-color: #000000;
+  color: #333;
+  padding: 10px 20px;
+  border: none;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.btn:hover {
+  background-color: #4CAF50;
+  color: #fff;
+}
 .center {
 	align-items: center;
 }
